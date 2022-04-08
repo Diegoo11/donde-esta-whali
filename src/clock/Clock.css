@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'clock';
+    src: url('../font/DS-DIGI.TTF') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.boxClock{
+    background-color: rgb(22, 22, 22);
+    font-family: 'clock';
+    font-size: 4rem;
+    color: red;
+    width: 140px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}

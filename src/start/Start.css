@@ -1,0 +1,52 @@
+.imgStart {
+    height: 80px;
+    width: auto;
+    border: 4px solid gray;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+.boxStart {
+    display: flex;
+    padding: 20px;
+    background-color: rgb(216, 216, 216);
+    width: min(400px, 80vw);
+    border-radius: 20px;
+    position: fixed;
+    top: calc(50% - 370px);
+    left: calc(50% - min(220px, 44vw));
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.imgFondo {
+    height: 700px;
+    border-radius: 10px;
+}
+.titleStart {
+    font-size: 3.5rem;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+    margin: 20px;
+}
+.page {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bo;
+    justify-content: space-around;
+}
+.go{
+    font-size: 2rem;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    margin: 40px 20px;
+    background-color: rgb(57, 50, 156);
+    transition: all 200ms;
+}
+.go:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
